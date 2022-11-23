@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 15px;
+  color: rgb(30, 6, 102);
+  text-align: center;
+}
+
+h2 {
+  margin: 15px;
+  color: rgb(15, 84, 119);
+  text-align: center;
+}
+
+label {
+  margin-left: 5px;
+}
+input {
+  font-size: 15px;
+  margin-left: 1rem;
+}
+
+H3 {
+  color: rgb(28, 28, 218);
+  margin: 15px 5;
+}
+
+button {
+  background-color: rgb(30, 6, 102);
+  color: white;
+}
+
+#winner-name {
+  color: red;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/game.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <main>
+      <h1>Rock paper scissors game</h1>
+      <label for="namn">Your name:</label>
+      <input type="text" id="name-input" />
+      <button id="name-button">Click here</button>
+
+      <h2 id="user-name"></h2>
+
+      <div id="div1">
+        <button id="user-btn" class="0">Rock</button>
+        <button id="user-btn" class="1">Paper</button>
+        <button id="user-btn" class="2">Scissors</button>
+      </div>
+      <div>
+        <h4 id="user-choices"></h4>
+        <h4 id="computer-choice"></h4>
+      </div>
+
+      <h2 id="round-counter"></h2>
+      <div id="PC">
+        <h3 id="user-points"></h3>
+        <h3 id="computer-points"></h3>
+        <h1 id="winner-name"></h1>
+      </div>
+      <button id="restart-game">Play again!</button>
+    </main>
+  </body>
+</html>
